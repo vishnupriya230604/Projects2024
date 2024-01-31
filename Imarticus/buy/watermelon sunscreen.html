@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam beauty</title>
+    <link rel="shortcut icon" href="icon.jpeg" type="image/x-icon">
+    <style>
+        .buy {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            border: 1px solid black;
+        }
+
+        img {
+            border: 1px solid black;
+            height: 720px;
+            width: 700px;
+        }
+
+        p {
+
+            font-size: 24px;
+            padding: 60px;
+            margin-right: 50px;
+        }
+
+        .Cost {
+            width: 650px;
+            background-color: rgb(214, 101, 107);
+            color: white;
+            font-style: italic;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .Quantity {
+            width: 650px;
+            background-color: rgb(214, 101, 107);
+            color: white;
+            font-style: italic;
+            padding: 2px;
+        }
+
+        .b {
+            background-color: rgb(223, 205, 205);
+            border-radius: 8px;
+        }
+
+        .inpt {
+            background-color: rgb(223, 205, 205);
+            border-radius: 8px;
+        }
+
+        .buyn {
+            border-radius: 8px;
+            width: 150px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body class="buy">
+    <div><img src="watermelon sunscreen.jpeg" alt="no"></div>
+    <div>
+        <p>Dive into summer with our Watermelon Sunscreen Cosmetic Sale – where sun protection meets deliciously
+            refreshing skincare! Indulge in the ultimate sun-care experience with our collection of watermelon-infused
+            sunscreens, designed to keep your skin safe, hydrated, and smelling irresistibly sweet all season long.</p>
+        <hr>
+        <p class="Cost"><b>INR 150</b></p>
+        <p class="Quantity"> <span>&nbsp;Quantity &emsp;</span>
+            <span><button class="b" onclick=""><b>&#43;</b></button></span>
+            <span><button class="b" onclick=""><b>&#8722;</b></button></span>
+            <span>&emsp;<input type="text" placeholder="0" class="inpt"></span>
+        </p><br><br>
+        <button class="buyn" onclick="myfunction()">BUY NOW</button>
+    </div>
+    <script>
+        function myfunction()
+        {
+            alert("Thankyou! order placed successfully!");
+        }
+    </script>
+</body>
+
+</html>

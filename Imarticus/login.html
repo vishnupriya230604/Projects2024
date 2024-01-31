@@ -1,20 +1,29 @@
-<!DOCTYPE html>
 <html><head>
-    <title>GoLogin</title>
     <link rel="stylesheet" href="login.css">
-</head>
-<body>
-    <div class="login">
-
-        <form id="login" method="get">
-            <label>Username</label><br>
-            <input type="text" name="uname" id="uname" placeholder="Enter your Username">
-            <br><br>
-            <label>Password</label><br>
-            <input type="text" name="pass" id="pass" placeholder="Enter your Password">
-            <br><br>
-            <input type="button" value="Login" id="login_btn">
-        </form>
-    </div>
-</body>
-</html>
+</head><body><div class="container">
+	<div class="screen">
+		<div class="screen__content">
+			<form class="login">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" class="login__input" placeholder="User name / Email">
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" class="login__input" placeholder="Password">
+				</div>
+				<button class="button login__submit">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+			</form>
+			
+		</div>
+		<div class="screen__background">
+			<span class="screen_backgroundshape screenbackground_shape4"></span>
+			<span class="screen_backgroundshape screenbackground_shape3"></span>		
+			<span class="screen_backgroundshape screenbackground_shape2"></span>
+			<span class="screen_backgroundshape screenbackground_shape1"></span>
+		</div>		
+	</div>
+</div></body></html>

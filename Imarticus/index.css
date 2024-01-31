@@ -17,6 +17,25 @@ img {
     cursor: pointer;
     vertical-align: middle;
 }
+.cost {
+    text-align: center;
+    width: 450px;
+    height: 5px;
+}
+
+.buy-now {
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.add-to-cart {
+    border-radius: 8px;
+    width: 100px;
+    padding: 2px;
+    height: 50px;
+}
 
 
 .nav_bar ul {
@@ -68,7 +87,14 @@ figcaption{
     display: inline-block;
 }
 
-
+footer {
+    width: 100%;
+    background-color: #fbdede;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1px;
+}
 /* 
 .scrollbar-item {
      min-width: 100%; 
@@ -84,3 +110,37 @@ figcaption{
     cursor: pointer;
     vertical-align: middle;
 }  */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .catgr {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .catgr:hover.dropdown-content {display: block;}
+  
+  .catgr:hover.dropbtn {background-color: #3e8e41;}
